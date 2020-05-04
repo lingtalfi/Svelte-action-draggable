@@ -141,6 +141,10 @@ window.Test = function () {
 History Log
 ===============
     
+- 1.1.0 -- 2020-05-04
+
+    - add mouse button filtering option
+
 - 1.0.0 -- 2020-05-04
 
     - initial commit
