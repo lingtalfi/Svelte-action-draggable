@@ -1,4 +1,4 @@
-export function draggable(node, _options = {}) {
+export default function draggable(node, _options = {}) {
     let x;
     let y;
     let options = Object.assign({

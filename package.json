@@ -1,0 +1,20 @@
+{
+  "name": "svelte-action-draggable",
+  "version": "1.0.0",
+  "description": "Svelte action draggable ========== 2020-05-04",
+  "main": "draggable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingtalfi/Svelte-action-draggable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lingtalfi/Svelte-action-draggable/issues"
+  },
+  "homepage": "https://github.com/lingtalfi/Svelte-action-draggable#readme"
+}

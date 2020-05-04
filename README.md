@@ -6,9 +6,16 @@ Svelte action draggable
 A draggable action for svelte.
 
 
-
-
 Adapted from here https://svelte.dev/tutorial/actions.
+
+
+Install
+---------
+```bash
+npm i svelte-action-draggable
+```
+
+
 
 
 
