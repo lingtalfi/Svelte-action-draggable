@@ -1,6 +1,6 @@
 Svelte action draggable
 ==========
-2020-05-04
+2020-05-04 -> 2020-05-05
 
 
 A draggable action for svelte.
@@ -147,6 +147,10 @@ window.Test = function () {
 
 History Log
 ===============
+    
+- 1.2.0 -- 2020-05-05
+
+    - add onStartDragBefore user callback
     
 - 1.1.0 -- 2020-05-04
 

@@ -14,6 +14,17 @@ export default function draggable(node, _options = {}) {
          * You can pass an array.
          */
         startClick: "main",
+        /**
+         * Triggered before the dragging starts.
+         * Opportunity to prevent the dragging by returning false.
+         *
+         * The callback accepts the following parameters:
+         * - event: the mousedown event received by this action when the user mouses down the element.
+         */
+        onStartDragBefore: function (event) {
+
+
+        },
     }, _options);
     let isDragging = false;
 
@@ -44,6 +55,12 @@ export default function draggable(node, _options = {}) {
             return ret;
         });
         if (false === startClick.includes(event.button)) {
+            return;
+        }
+
+
+        let userRet = options.onStartDragBefore(event);
+        if (false === userRet) {
             return;
         }
         isDragging = true;
